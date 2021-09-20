@@ -1,5 +1,9 @@
 :root {
-  --yellow: #fae100;
+  --purple: #fae100;
+  --bg-color: #f3f1f5;
+  --purple: #bfa2db;
+  --purple-light: #f0d9ff;
+  --gray: #7f7c82;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
