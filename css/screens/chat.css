@@ -81,6 +81,25 @@
   margin-right: 5px;
 }
 
+@keyframes superAnimation {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: scale(2);
+  }
+  40% {
+    transform: none;
+  }
+}
+
+.message__bubble--super {
+  animation: superAnimation 1s ease-in-out infinite;
+}
+.aaaa {
+  animation-delay: 0.5s;
+}
+
 .message__time,
 .message__author {
   opacity: 0.8;
@@ -92,7 +111,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--purple);
+  background-color: var(--purple-light);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -150,7 +169,7 @@
 }
 
 .reply__column button {
-  background-color: var(--purple);
+  background-color: var(--purple-light);
   border: none;
   width: 40px;
   height: 40px;

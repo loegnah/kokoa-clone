@@ -1,0 +1,23 @@
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes vibrateAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: none;
+  }
+}
