@@ -1,3 +1,3 @@
-# Kokoa Clone 2020 Update
+# KaKao Clone
 
-HTML & CSS are so much fun!
+For studying HTML and CSS
